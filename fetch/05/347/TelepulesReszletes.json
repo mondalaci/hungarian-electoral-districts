@@ -1,0 +1,736 @@
+{
+  "OvEpHeader": {
+    "generated": "2024-06-09T17:50:00.271265176+02:00",
+    "ov_vl_id": 395,
+    "ov_nvv_id": 445,
+    "ep_vl_id": 396,
+    "ep_nvv_id": 446
+  },
+  "data": {
+    "maz": "05",
+    "taz": "347",
+    "letszam": {
+      "onkAtjelBelf": 1,
+      "onkLakcSzavkorSzavaz": 886,
+      "onkVpSzumma": 887,
+      "onkMagyarAllampolgMagyarCim": 839,
+      "onkMasEuAllampolg": 48,
+      "onkBevLetMen": 0,
+      "onkInduloVpSzumma": 976,
+      "onkInduloMagyarAllampolgMagyarCim": 927,
+      "onkInduloMasEuAllampolg": 49,
+      "onkInduloBevLetMen": 0,
+      "epVpSzumma": 836,
+      "epMagyarAllampolgMagyarCim": 836,
+      "epMasEuAllampolg": 0,
+      "epInduloMagyarAllampolgMagyarCim": 927,
+      "epInduloMasEuAllampolg": 0,
+      "epInduloVpSzumma": 927
+    },
+    "mandatumok": {
+      "egyeniListas": 6,
+      "osszesen": 7
+    },
+    "egyeniJeloltek": [
+      {
+        "ej_id": 117151,
+        "valaltip": "3",
+        "kpn_id": 2342276,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "HORVÁTH ANDRÁS",
+        "jlcs_kod": 2549,
+        "jelolo_szervezetek": [
+          1017
+        ],
+        "jlcs_nev": "Romajó Egyesület",
+        "allapot": "1",
+        "allapot_valt": "2024-05-03T00:00:00+02:00"
+      },
+      {
+        "ej_id": 119148,
+        "valaltip": "3",
+        "kpn_id": 2827361,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "MELEGH KÁROLY",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 122543,
+        "valaltip": "3",
+        "kpn_id": 1436982,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 3,
+        "szavlap_sorsz": 3,
+        "neve": "GALYAS KRISZTIÁN",
+        "jlcs_kod": 2549,
+        "jelolo_szervezetek": [
+          1017
+        ],
+        "jlcs_nev": "Romajó Egyesület",
+        "allapot": "1",
+        "allapot_valt": "2024-05-03T00:00:00+02:00"
+      },
+      {
+        "ej_id": 122096,
+        "valaltip": "3",
+        "kpn_id": 9267296,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 4,
+        "szavlap_sorsz": 4,
+        "neve": "VETÉSI ILONA VIKTÓRIA",
+        "jlcs_kod": 2642,
+        "jelolo_szervezetek": [
+          1101
+        ],
+        "jlcs_nev": "MCF",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 118342,
+        "valaltip": "3",
+        "kpn_id": 5283225,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 5,
+        "szavlap_sorsz": 5,
+        "neve": "BALOGH BÉLA KRISZTIÁN",
+        "jlcs_kod": 2642,
+        "jelolo_szervezetek": [
+          1101
+        ],
+        "jlcs_nev": "MCF",
+        "allapot": "1",
+        "allapot_valt": "2024-05-02T00:00:00+02:00"
+      },
+      {
+        "ej_id": 100764,
+        "valaltip": "3",
+        "kpn_id": 7612633,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 6,
+        "szavlap_sorsz": 6,
+        "neve": "BALOG ZSOLT",
+        "jlcs_kod": 2700,
+        "jelolo_szervezetek": [
+          1155
+        ],
+        "jlcs_nev": "CiKöSz",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 122041,
+        "valaltip": "3",
+        "kpn_id": 4790812,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 7,
+        "szavlap_sorsz": 7,
+        "neve": "BALOGH DÁVID",
+        "jlcs_kod": 2642,
+        "jelolo_szervezetek": [
+          1101
+        ],
+        "jlcs_nev": "MCF",
+        "allapot": "1",
+        "allapot_valt": "2024-05-02T00:00:00+02:00"
+      },
+      {
+        "ej_id": 122348,
+        "valaltip": "3",
+        "kpn_id": 4149149,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 8,
+        "szavlap_sorsz": 8,
+        "neve": "VETÉSI ATTILA",
+        "jlcs_kod": 2642,
+        "jelolo_szervezetek": [
+          1101
+        ],
+        "jlcs_nev": "MCF",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 113700,
+        "valaltip": "3",
+        "kpn_id": 2286109,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 9,
+        "szavlap_sorsz": 9,
+        "neve": "GULYÁS BÉLA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-02T00:00:00+02:00"
+      },
+      {
+        "ej_id": 125773,
+        "valaltip": "3",
+        "kpn_id": 3665192,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 10,
+        "szavlap_sorsz": 10,
+        "neve": "BALOGHNÉ RUSZNYÁK SAROLTA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 133282,
+        "valaltip": "3",
+        "kpn_id": 2561336,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 11,
+        "szavlap_sorsz": 11,
+        "neve": "HEBÓ-IVANCSÓ MELINDA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 133624,
+        "valaltip": "3",
+        "kpn_id": 4716574,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 12,
+        "szavlap_sorsz": 12,
+        "neve": "SALÁTA LÁSZLÓNÉ",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 113196,
+        "valaltip": "3",
+        "kpn_id": 3240169,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 13,
+        "szavlap_sorsz": 13,
+        "neve": "BALOGH JÓZSEF",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-02T00:00:00+02:00"
+      },
+      {
+        "ej_id": 125829,
+        "valaltip": "3",
+        "kpn_id": 9208710,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 14,
+        "szavlap_sorsz": 14,
+        "neve": "BODNÁR VIKTÓRIA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 115524,
+        "valaltip": "3",
+        "kpn_id": 4585476,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 15,
+        "szavlap_sorsz": 15,
+        "neve": "BATYI RÓBERT",
+        "jlcs_kod": 2642,
+        "jelolo_szervezetek": [
+          1101
+        ],
+        "jlcs_nev": "MCF",
+        "allapot": "1",
+        "allapot_valt": "2024-05-02T00:00:00+02:00"
+      },
+      {
+        "ej_id": 112697,
+        "valaltip": "3",
+        "kpn_id": 2603409,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 16,
+        "szavlap_sorsz": 16,
+        "neve": "GALYAS JÓZSEF",
+        "jlcs_kod": 2549,
+        "jelolo_szervezetek": [
+          1017
+        ],
+        "jlcs_nev": "Romajó Egyesület",
+        "allapot": "1",
+        "allapot_valt": "2024-05-03T00:00:00+02:00"
+      },
+      {
+        "ej_id": 102377,
+        "valaltip": "3",
+        "kpn_id": 130133,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 17,
+        "szavlap_sorsz": 17,
+        "neve": "GALYAS MÁTÉ",
+        "jlcs_kod": 2549,
+        "jelolo_szervezetek": [
+          1017
+        ],
+        "jlcs_nev": "Romajó Egyesület",
+        "allapot": "1",
+        "allapot_valt": "2024-05-02T00:00:00+02:00"
+      },
+      {
+        "ej_id": 133769,
+        "valaltip": "3",
+        "kpn_id": 3155903,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 18,
+        "szavlap_sorsz": 18,
+        "neve": "KISS FERENC",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 122524,
+        "valaltip": "3",
+        "kpn_id": 1596571,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 19,
+        "szavlap_sorsz": 19,
+        "neve": "BALOGH GÉZA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-03T00:00:00+02:00"
+      },
+      {
+        "ej_id": 126835,
+        "valaltip": "3",
+        "kpn_id": 8791612,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 20,
+        "szavlap_sorsz": 20,
+        "neve": "STEFÁN GÁBOR DÁVID",
+        "jlcs_kod": 2700,
+        "jelolo_szervezetek": [
+          1155
+        ],
+        "jlcs_nev": "CiKöSz",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 127222,
+        "valaltip": "3",
+        "kpn_id": 2438877,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 21,
+        "szavlap_sorsz": 21,
+        "neve": "BALOGH RÓBERT",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 96227,
+        "valaltip": "3",
+        "kpn_id": 4508097,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 22,
+        "szavlap_sorsz": 22,
+        "neve": "GALYAS ATTILA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 132829,
+        "valaltip": "3",
+        "kpn_id": 1882085,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 23,
+        "szavlap_sorsz": 23,
+        "neve": "WEINGARTNER GÁBOR",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-09T00:00:00+02:00"
+      },
+      {
+        "ej_id": 137698,
+        "valaltip": "3",
+        "kpn_id": 4725114,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 24,
+        "szavlap_sorsz": 24,
+        "neve": "KOVÁCS SÁNDORNÉ",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-09T00:00:00+02:00"
+      },
+      {
+        "ej_id": 115281,
+        "valaltip": "3",
+        "kpn_id": 6000422,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 25,
+        "szavlap_sorsz": 25,
+        "neve": "BATYI SÁNDOR",
+        "jlcs_kod": 2700,
+        "jelolo_szervezetek": [
+          1155
+        ],
+        "jlcs_nev": "CiKöSz",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 115033,
+        "valaltip": "3",
+        "kpn_id": 6509974,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 26,
+        "szavlap_sorsz": 26,
+        "neve": "GULYÁS ALEXANDRA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-04-29T00:00:00+02:00"
+      },
+      {
+        "ej_id": 133875,
+        "valaltip": "3",
+        "kpn_id": 5867060,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 27,
+        "szavlap_sorsz": 27,
+        "neve": "CSÖMÖR SZABINA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 97699,
+        "valaltip": "3",
+        "kpn_id": 2238869,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 28,
+        "szavlap_sorsz": 28,
+        "neve": "BATYI GYULA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 125982,
+        "valaltip": "3",
+        "kpn_id": 191103,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 29,
+        "szavlap_sorsz": 29,
+        "neve": "BÁRTFAI JÓZSEF",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 97765,
+        "valaltip": "3",
+        "kpn_id": 5843200,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 30,
+        "szavlap_sorsz": 30,
+        "neve": "BATYI MIKLÓS",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-09T00:00:00+02:00"
+      },
+      {
+        "ej_id": 119121,
+        "valaltip": "3",
+        "kpn_id": 2451063,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 31,
+        "szavlap_sorsz": 31,
+        "neve": "TÓTH JENŐ",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 125940,
+        "valaltip": "3",
+        "kpn_id": 6146241,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 32,
+        "szavlap_sorsz": 32,
+        "neve": "LAKATOS BEÁTA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 102709,
+        "valaltip": "3",
+        "kpn_id": 2982993,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "sorsolt_sorsz": 33,
+        "szavlap_sorsz": 33,
+        "neve": "BATYI FERENC",
+        "jlcs_kod": 2700,
+        "jelolo_szervezetek": [
+          1155
+        ],
+        "jlcs_nev": "CiKöSz",
+        "allapot": "1",
+        "allapot_valt": "2024-05-02T00:00:00+02:00"
+      },
+      {
+        "ej_id": 113510,
+        "valaltip": "3",
+        "kpn_id": 4459708,
+        "maz": "05",
+        "taz": "347",
+        "sorsolt_sorsz": 34,
+        "szavlap_sorsz": 34,
+        "neve": "MATISZ GYULA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 112523,
+        "valaltip": "3",
+        "kpn_id": 4790812,
+        "maz": "05",
+        "taz": "347",
+        "neve": "BALOGH DÁVID",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "15",
+        "allapot_valt": "2024-04-26T00:00:00+02:00"
+      },
+      {
+        "ej_id": 102992,
+        "valaltip": "1",
+        "kpn_id": 4450367,
+        "maz": "05",
+        "taz": "347",
+        "szavlap_sorsz": 1,
+        "neve": "BATYI BÉLA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-04-29T00:00:00+02:00"
+      },
+      {
+        "ej_id": 92500,
+        "valaltip": "3",
+        "kpn_id": 4585476,
+        "maz": "05",
+        "taz": "347",
+        "neve": "BATYI RÓBERT",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "15",
+        "allapot_valt": "2024-04-24T00:00:00+02:00"
+      },
+      {
+        "ej_id": 101832,
+        "valaltip": "3",
+        "kpn_id": 6000422,
+        "maz": "05",
+        "taz": "347",
+        "neve": "BATYI SÁNDOR",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "15",
+        "allapot_valt": "2024-04-24T00:00:00+02:00"
+      },
+      {
+        "ej_id": 122491,
+        "valaltip": "3",
+        "kpn_id": 3992801,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "neve": "GALYAS GYÖRGY",
+        "jlcs_kod": 2642,
+        "jelolo_szervezetek": [
+          1101
+        ],
+        "jlcs_nev": "MCF",
+        "allapot": "15",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 115092,
+        "valaltip": "3",
+        "kpn_id": 3992801,
+        "maz": "05",
+        "taz": "347",
+        "nemzkod": "7",
+        "neve": "GALYAS GYÖRGY",
+        "jlcs_kod": 2582,
+        "jelolo_szervezetek": [
+          1046
+        ],
+        "jlcs_nev": "ORCT",
+        "allapot": "15",
+        "allapot_valt": "2024-04-26T00:00:00+02:00"
+      },
+      {
+        "ej_id": 135797,
+        "valaltip": "3",
+        "kpn_id": 1976362,
+        "maz": "05",
+        "taz": "347",
+        "neve": "ONODI LÁSZLÓNÉ",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "15",
+        "allapot_valt": "2024-05-04T00:00:00+02:00"
+      }
+    ]
+  }
+}

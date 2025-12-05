@@ -1,0 +1,695 @@
+{
+  "OvEpHeader": {
+    "generated": "2024-06-09T17:50:00.271265176+02:00",
+    "ov_vl_id": 395,
+    "ov_nvv_id": 445,
+    "ep_vl_id": 396,
+    "ep_nvv_id": 446
+  },
+  "data": {
+    "maz": "03",
+    "taz": "111",
+    "letszam": {
+      "onkAtjelBelf": 24,
+      "onkLakcSzavkorSzavaz": 9352,
+      "onkVpSzumma": 9376,
+      "onkMagyarAllampolgMagyarCim": 9193,
+      "onkMasEuAllampolg": 171,
+      "onkBevLetMen": 12,
+      "onkInduloVpSzumma": 9449,
+      "onkInduloMagyarAllampolgMagyarCim": 9270,
+      "onkInduloMasEuAllampolg": 168,
+      "onkInduloBevLetMen": 11,
+      "epVpSzumma": 9150,
+      "epMagyarAllampolgMagyarCim": 9150,
+      "epMasEuAllampolg": 0,
+      "epInduloMagyarAllampolgMagyarCim": 9270,
+      "epInduloMasEuAllampolg": 0,
+      "epInduloVpSzumma": 9270,
+      "tevkLetszamok": [
+        {
+          "evk": "01",
+          "szavkorDb": 1,
+          "letszam": {
+            "onkAtjelBelf": 9,
+            "onkLakcSzavkorSzavaz": 1292,
+            "onkVpSzumma": 1301,
+            "onkMagyarAllampolgMagyarCim": 1259,
+            "onkMasEuAllampolg": 40,
+            "onkBevLetMen": 2,
+            "onkInduloVpSzumma": 1305,
+            "onkInduloMagyarAllampolgMagyarCim": 1264,
+            "onkInduloMasEuAllampolg": 40,
+            "onkInduloBevLetMen": 1
+          }
+        },
+        {
+          "evk": "02",
+          "szavkorDb": 1,
+          "letszam": {
+            "onkAtjelBelf": 3,
+            "onkLakcSzavkorSzavaz": 1241,
+            "onkVpSzumma": 1244,
+            "onkMagyarAllampolgMagyarCim": 1232,
+            "onkMasEuAllampolg": 8,
+            "onkBevLetMen": 4,
+            "onkInduloVpSzumma": 1263,
+            "onkInduloMagyarAllampolgMagyarCim": 1251,
+            "onkInduloMasEuAllampolg": 8,
+            "onkInduloBevLetMen": 4
+          }
+        },
+        {
+          "evk": "03",
+          "szavkorDb": 1,
+          "letszam": {
+            "onkAtjelBelf": 2,
+            "onkLakcSzavkorSzavaz": 1182,
+            "onkVpSzumma": 1184,
+            "onkMagyarAllampolgMagyarCim": 1166,
+            "onkMasEuAllampolg": 13,
+            "onkBevLetMen": 5,
+            "onkInduloVpSzumma": 1198,
+            "onkInduloMagyarAllampolgMagyarCim": 1180,
+            "onkInduloMasEuAllampolg": 13,
+            "onkInduloBevLetMen": 5
+          }
+        },
+        {
+          "evk": "04",
+          "szavkorDb": 1,
+          "letszam": {
+            "onkAtjelBelf": 0,
+            "onkLakcSzavkorSzavaz": 1229,
+            "onkVpSzumma": 1229,
+            "onkMagyarAllampolgMagyarCim": 1224,
+            "onkMasEuAllampolg": 5,
+            "onkBevLetMen": 0,
+            "onkInduloVpSzumma": 1243,
+            "onkInduloMagyarAllampolgMagyarCim": 1237,
+            "onkInduloMasEuAllampolg": 6,
+            "onkInduloBevLetMen": 0
+          }
+        },
+        {
+          "evk": "05",
+          "szavkorDb": 1,
+          "letszam": {
+            "onkAtjelBelf": 2,
+            "onkLakcSzavkorSzavaz": 1177,
+            "onkVpSzumma": 1179,
+            "onkMagyarAllampolgMagyarCim": 1174,
+            "onkMasEuAllampolg": 4,
+            "onkBevLetMen": 1,
+            "onkInduloVpSzumma": 1192,
+            "onkInduloMagyarAllampolgMagyarCim": 1187,
+            "onkInduloMasEuAllampolg": 4,
+            "onkInduloBevLetMen": 1
+          }
+        },
+        {
+          "evk": "06",
+          "szavkorDb": 1,
+          "letszam": {
+            "onkAtjelBelf": 0,
+            "onkLakcSzavkorSzavaz": 1086,
+            "onkVpSzumma": 1086,
+            "onkMagyarAllampolgMagyarCim": 1074,
+            "onkMasEuAllampolg": 12,
+            "onkBevLetMen": 0,
+            "onkInduloVpSzumma": 1081,
+            "onkInduloMagyarAllampolgMagyarCim": 1069,
+            "onkInduloMasEuAllampolg": 12,
+            "onkInduloBevLetMen": 0
+          }
+        },
+        {
+          "evk": "07",
+          "szavkorDb": 2,
+          "letszam": {
+            "onkAtjelBelf": 4,
+            "onkLakcSzavkorSzavaz": 1110,
+            "onkVpSzumma": 1114,
+            "onkMagyarAllampolgMagyarCim": 1100,
+            "onkMasEuAllampolg": 14,
+            "onkBevLetMen": 0,
+            "onkInduloVpSzumma": 1123,
+            "onkInduloMagyarAllampolgMagyarCim": 1111,
+            "onkInduloMasEuAllampolg": 12,
+            "onkInduloBevLetMen": 0
+          }
+        },
+        {
+          "evk": "08",
+          "szavkorDb": 2,
+          "letszam": {
+            "onkAtjelBelf": 4,
+            "onkLakcSzavkorSzavaz": 1035,
+            "onkVpSzumma": 1039,
+            "onkMagyarAllampolgMagyarCim": 964,
+            "onkMasEuAllampolg": 75,
+            "onkBevLetMen": 0,
+            "onkInduloVpSzumma": 1044,
+            "onkInduloMagyarAllampolgMagyarCim": 971,
+            "onkInduloMasEuAllampolg": 73,
+            "onkInduloBevLetMen": 0
+          }
+        }
+      ]
+    },
+    "mandatumok": {
+      "tevkKepv": 8,
+      "kompListas": 3,
+      "tevkKompOsszesen": 11,
+      "osszesen": 12
+    },
+    "egyeniJeloltek": [
+      {
+        "ej_id": 82930,
+        "valaltip": "4",
+        "kpn_id": 1568177,
+        "maz": "03",
+        "taz": "111",
+        "evk": "02",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "ASZTALOS MARIANNA",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80658,
+        "valaltip": "4",
+        "kpn_id": 7246024,
+        "maz": "03",
+        "taz": "111",
+        "evk": "01",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "dr_jelzo": "DR.",
+        "neve": "DANIS LÁSZLÓ",
+        "fenykep": 25418,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 83097,
+        "valaltip": "4",
+        "kpn_id": 2627810,
+        "maz": "03",
+        "taz": "111",
+        "evk": "06",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "LESENKOL GÁBOR",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80745,
+        "valaltip": "4",
+        "kpn_id": 3357688,
+        "maz": "03",
+        "taz": "111",
+        "evk": "04",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "PETREZSELYEM LÁSZLÓ",
+        "fenykep": 25422,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80986,
+        "valaltip": "1",
+        "kpn_id": 820369,
+        "maz": "03",
+        "taz": "111",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "TÓTH JÁNOS",
+        "fenykep": 25417,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80722,
+        "valaltip": "4",
+        "kpn_id": 820369,
+        "maz": "03",
+        "taz": "111",
+        "evk": "03",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "TÓTH JÁNOS",
+        "fenykep": 25417,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80897,
+        "valaltip": "4",
+        "kpn_id": 3298121,
+        "maz": "03",
+        "taz": "111",
+        "evk": "08",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "ZOBOKINÉ TÓTH EMESE",
+        "fenykep": 25426,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 83003,
+        "valaltip": "4",
+        "kpn_id": 1734742,
+        "maz": "03",
+        "taz": "111",
+        "evk": "04",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "CSERNUS FERENC",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80820,
+        "valaltip": "4",
+        "kpn_id": 7275139,
+        "maz": "03",
+        "taz": "111",
+        "evk": "06",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "ESZES BÉLÁNÉ",
+        "fenykep": 25424,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 82978,
+        "valaltip": "4",
+        "kpn_id": 4748443,
+        "maz": "03",
+        "taz": "111",
+        "evk": "03",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "HEVÉR-SZABÓ ISTVÁN RÓBERT",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80695,
+        "valaltip": "4",
+        "kpn_id": 707465,
+        "maz": "03",
+        "taz": "111",
+        "evk": "02",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "PETRIK ANDRÁS",
+        "fenykep": 25419,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 82860,
+        "valaltip": "4",
+        "kpn_id": 1192614,
+        "maz": "03",
+        "taz": "111",
+        "evk": "01",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "SZABÓNÉ SÓS ANNAMÁRIA",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 84277,
+        "valaltip": "4",
+        "kpn_id": 5479686,
+        "maz": "03",
+        "taz": "111",
+        "evk": "08",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "TÓTH ZSANETT KATALIN",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 130770,
+        "valaltip": "1",
+        "kpn_id": 700834,
+        "maz": "03",
+        "taz": "111",
+        "sorsolt_sorsz": 2,
+        "neve": "TYAVODA ATTILA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "4",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 122170,
+        "valaltip": "4",
+        "kpn_id": 176022,
+        "maz": "03",
+        "taz": "111",
+        "evk": "01",
+        "sorsolt_sorsz": 3,
+        "szavlap_sorsz": 3,
+        "neve": "BAGÓ ÁKOS KÁROLY",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 82722,
+        "valaltip": "1",
+        "kpn_id": 4748443,
+        "maz": "03",
+        "taz": "111",
+        "sorsolt_sorsz": 3,
+        "szavlap_sorsz": 2,
+        "neve": "HEVÉR-SZABÓ ISTVÁN RÓBERT",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80777,
+        "valaltip": "4",
+        "kpn_id": 1686668,
+        "maz": "03",
+        "taz": "111",
+        "evk": "05",
+        "szavlap_sorsz": 1,
+        "neve": "LAKATOS IMRE",
+        "fenykep": 25423,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      },
+      {
+        "ej_id": 83061,
+        "valaltip": "4",
+        "kpn_id": 4390697,
+        "maz": "03",
+        "taz": "111",
+        "evk": "05",
+        "neve": "PATAI ISTVÁN",
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "allapot": "4",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 80863,
+        "valaltip": "4",
+        "kpn_id": 405049,
+        "maz": "03",
+        "taz": "111",
+        "evk": "07",
+        "szavlap_sorsz": 1,
+        "neve": "SZIJJ TIBOR",
+        "fenykep": 25425,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "allapot": "1",
+        "allapot_valt": "2024-04-28T00:00:00+02:00"
+      }
+    ],
+    "listak": [
+      {
+        "tl_id": 1329,
+        "maz": "03",
+        "taz": "111",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "jlcs_kod": 2536,
+        "jelolo_szervezetek": [
+          1008
+        ],
+        "jlcs_nev": "MSZP",
+        "lista_tip": "O",
+        "lista_altip": "5",
+        "allapot": "1",
+        "allapot_valt": "2024-05-09T00:00:00+02:00",
+        "jeloltek": [
+          {
+            "tj_id": 18182,
+            "tl_id": 1329,
+            "kpn_id": 1734742,
+            "sorsz": 1,
+            "neve": "CSERNUS FERENC",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 18184,
+            "tl_id": 1329,
+            "kpn_id": 4748443,
+            "sorsz": 2,
+            "neve": "HEVÉR-SZABÓ ISTVÁN RÓBERT",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 18188,
+            "tl_id": 1329,
+            "kpn_id": 1568177,
+            "sorsz": 3,
+            "neve": "ASZTALOS MARIANNA",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          }
+        ]
+      },
+      {
+        "tl_id": 1431,
+        "maz": "03",
+        "taz": "111",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "jlcs_kod": 3111,
+        "jelolo_szervezetek": [
+          1076,
+          1078
+        ],
+        "jlcs_nev": "FIDESZ-KDNP",
+        "lista_tip": "K",
+        "lista_altip": "5",
+        "allapot": "1",
+        "allapot_valt": "2024-05-09T00:00:00+02:00",
+        "jeloltek": [
+          {
+            "tj_id": 19254,
+            "tl_id": 1431,
+            "kpn_id": 820369,
+            "sorsz": 1,
+            "neve": "TÓTH JÁNOS",
+            "fenykep": 25417,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19256,
+            "tl_id": 1431,
+            "kpn_id": 3357688,
+            "sorsz": 2,
+            "neve": "PETREZSELYEM LÁSZLÓ",
+            "fenykep": 25422,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19259,
+            "tl_id": 1431,
+            "kpn_id": 7246024,
+            "sorsz": 3,
+            "dr_jelzo": "DR.",
+            "neve": "DANIS LÁSZLÓ",
+            "fenykep": 25418,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19260,
+            "tl_id": 1431,
+            "kpn_id": 3298121,
+            "sorsz": 4,
+            "neve": "ZOBOKINÉ TÓTH EMESE",
+            "fenykep": 25426,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19261,
+            "tl_id": 1431,
+            "kpn_id": 1686668,
+            "sorsz": 5,
+            "neve": "LAKATOS IMRE",
+            "fenykep": 25423,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19262,
+            "tl_id": 1431,
+            "kpn_id": 707465,
+            "sorsz": 6,
+            "neve": "PETRIK ANDRÁS",
+            "fenykep": 25419,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19264,
+            "tl_id": 1431,
+            "kpn_id": 5470008,
+            "sorsz": 7,
+            "neve": "CSIKÓS JÁNOS",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19266,
+            "tl_id": 1431,
+            "kpn_id": 7346954,
+            "sorsz": 8,
+            "neve": "SZÁNTÓ ISTVÁN",
+            "fenykep": 22361,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          },
+          {
+            "tj_id": 19267,
+            "tl_id": 1431,
+            "kpn_id": 7275139,
+            "sorsz": 9,
+            "neve": "ESZES BÉLÁNÉ",
+            "fenykep": 25424,
+            "kep_tipus": "JPG",
+            "allapot": "1",
+            "allapot_valt": "2024-05-09T00:00:00+02:00"
+          }
+        ]
+      }
+    ]
+  }
+}

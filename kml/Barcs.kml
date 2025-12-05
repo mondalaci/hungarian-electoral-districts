@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Barcs</name>
+    <Style id="style0">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style1">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style4">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff00ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style5">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style6">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0080ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style7">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style8">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f008080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style9">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f80ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style10">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff8000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style11">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f8000ff</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Szavazókör 001</name>
+      <styleUrl>#style0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4229,45.9579,0 17.4386,45.9534,0 17.4465,45.9522,0 17.4581,45.9551,0 17.455,45.9588,0 17.4491,45.961,0 17.4478,45.961,0 17.4229,45.9579,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 002</name>
+      <styleUrl>#style1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4472,45.9661,0 17.4474,45.962,0 17.4476,45.961,0 17.4482,45.96,0 17.4495,45.9582,0 17.4553,45.9593,0 17.4574,45.9632,0 17.4554,45.9659,0 17.4477,45.9665,0 17.4472,45.9661,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 003</name>
+      <styleUrl>#style2</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4556,45.9598,0 17.4556,45.9588,0 17.4585,45.9589,0 17.4574,45.9615,0 17.4566,45.9615,0 17.4558,45.9614,0 17.4556,45.9598,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 004</name>
+      <styleUrl>#style3</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4491,45.9648,0 17.4515,45.9648,0 17.454,45.9649,0 17.4594,45.9616,0 17.4595,45.9604,0 17.4595,45.9601,0 17.4593,45.9628,0 17.4591,45.9655,0 17.4593,45.966,0 17.4589,45.9687,0 17.4587,45.9714,0 17.4586,45.9729,0 17.456,45.9716,0 17.4538,45.9716,0 17.4525,45.9714,0 17.4526,45.9691,0 17.45,45.9657,0 17.4495,45.9657,0 17.4491,45.9648,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 005</name>
+      <styleUrl>#style4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4567,45.9589,0 17.4582,45.9589,0 17.4598,45.959,0 17.4613,45.959,0 17.4634,45.9583,0 17.4649,45.9592,0 17.4666,45.9588,0 17.4671,45.9581,0 17.4668,45.9596,0 17.4668,45.9612,0 17.4666,45.9618,0 17.4644,45.9617,0 17.4634,45.9617,0 17.4595,45.96,0 17.4577,45.9589,0 17.4567,45.9589,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 006</name>
+      <styleUrl>#style5</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4654,45.9592,0 17.4668,45.9592,0 17.4681,45.9593,0 17.4686,45.9593,0 17.4717,45.9607,0 17.4729,45.9609,0 17.4728,45.9622,0 17.4733,45.964,0 17.4734,45.964,0 17.473,45.9655,0 17.4714,45.9661,0 17.4713,45.9663,0 17.4701,45.9654,0 17.4688,45.9654,0 17.4684,45.9654,0 17.4672,45.9612,0 17.467,45.9612,0 17.4654,45.9592,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 007</name>
+      <styleUrl>#style6</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4705,45.9593,0 17.4873,45.9561,0 17.488,45.9562,0 17.4881,45.9563,0 17.4904,45.9626,0 17.4886,45.965,0 17.4836,45.9655,0 17.4741,45.9664,0 17.4705,45.9593,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 008</name>
+      <styleUrl>#style7</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4479,45.953,0 17.4642,45.9481,0 17.4656,45.948,0 17.4659,45.9482,0 17.4666,45.9501,0 17.4689,45.9586,0 17.468,45.9592,0 17.4669,45.9592,0 17.4599,45.959,0 17.4572,45.958,0 17.4479,45.953,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 009</name>
+      <styleUrl>#style8</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.442,46.0129,0 17.4569,46.0011,0 17.4587,46.0069,0 17.4591,46.0094,0 17.4541,46.011,0 17.442,46.0129,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 010</name>
+      <styleUrl>#style9</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>17.4159,45.9999,0 17.418,45.9988,0 17.4205,45.9967,0 17.4218,45.9938,0 17.4226,45.9919,0 17.4227,45.9918,0 17.424,45.9943,0 17.4243,45.9944,0 17.4212,45.9956,0 17.4202,45.999,0 17.4203,46.0011,0 17.4202,46.0012,0 17.4172,45.9992,0 17.4159,45.9999,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

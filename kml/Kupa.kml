@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kupa</name>
+    <Style id="style0">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style1">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style4">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff00ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style5">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style6">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0080ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style7">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style8">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f008080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style9">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f80ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style10">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff8000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style11">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f8000ff</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Szavazókör 001</name>
+      <styleUrl>#style0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>20.9048,48.3439,0 20.9054,48.3439,0 20.9053,48.3435,0 20.9065,48.3435,0 20.9065,48.3431,0 20.9082,48.343,0 20.9082,48.3427,0 20.919,48.3429,0 20.9208,48.3432,0 20.9248,48.3443,0 20.9277,48.3446,0 20.9305,48.3446,0 20.9322,48.3449,0 20.9339,48.3449,0 20.9345,48.3445,0 20.9367,48.3418,0 20.9366,48.338,0 20.9359,48.3365,0 20.9353,48.3358,0 20.9353,48.3339,0 20.934,48.3316,0 20.9288,48.3282,0 20.9287,48.3275,0 20.9281,48.3264,0 20.928,48.3225,0 20.9278,48.3165,0 20.9283,48.3153,0 20.9289,48.3145,0 20.9265,48.3134,0 20.923,48.312,0 20.9236,48.3112,0 20.9219,48.3105,0 20.9207,48.3093,0 20.9177,48.3056,0 20.9154,48.3049,0 20.9154,48.3056,0 20.9068,48.3046,0 20.9069,48.3077,0 20.9058,48.3088,0 20.9053,48.3107,0 20.9054,48.3138,0 20.9043,48.3149,0 20.9033,48.3169,0 20.9027,48.318,0 20.9022,48.3199,0 20.9125,48.3205,0 20.912,48.3232,0 20.9122,48.3274,0 20.9082,48.3274,0 20.9076,48.3271,0 20.9047,48.3267,0 20.9007,48.326,0 20.8996,48.326,0 20.898,48.3291,0 20.8974,48.3299,0 20.8975,48.3322,0 20.8981,48.3329,0 20.8981,48.3333,0 20.901,48.3344,0 20.9022,48.3355,0 20.904,48.3366,0 20.9045,48.3374,0 20.9047,48.3404,0 20.9042,48.3423,0 20.9048,48.3439,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

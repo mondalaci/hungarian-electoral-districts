@@ -1,0 +1,543 @@
+{
+  "OvEpHeader": {
+    "generated": "2024-06-09T17:50:00.271265176+02:00",
+    "ov_vl_id": 395,
+    "ov_nvv_id": 445,
+    "ep_vl_id": 396,
+    "ep_nvv_id": 446
+  },
+  "data": {
+    "maz": "06",
+    "taz": "057",
+    "letszam": {
+      "onkAtjelBelf": 8,
+      "onkLakcSzavkorSzavaz": 1651,
+      "onkVpSzumma": 1659,
+      "onkMagyarAllampolgMagyarCim": 1641,
+      "onkMasEuAllampolg": 17,
+      "onkBevLetMen": 1,
+      "onkInduloVpSzumma": 1648,
+      "onkInduloMagyarAllampolgMagyarCim": 1632,
+      "onkInduloMasEuAllampolg": 16,
+      "onkInduloBevLetMen": 0,
+      "epVpSzumma": 1637,
+      "epMagyarAllampolgMagyarCim": 1636,
+      "epMasEuAllampolg": 1,
+      "epInduloMagyarAllampolgMagyarCim": 1632,
+      "epInduloMasEuAllampolg": 0,
+      "epInduloVpSzumma": 1632
+    },
+    "mandatumok": {
+      "egyeniListas": 6,
+      "osszesen": 7
+    },
+    "egyeniJeloltek": [
+      {
+        "ej_id": 75662,
+        "valaltip": "3",
+        "kpn_id": 2454362,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "BERTA CSABA",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-04-29T00:00:00+02:00"
+      },
+      {
+        "ej_id": 85018,
+        "valaltip": "1",
+        "kpn_id": 4685579,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 1,
+        "szavlap_sorsz": 1,
+        "neve": "BIRI ISTVÁN",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "33",
+        "allapot_valt": "2024-06-03T00:00:00+02:00"
+      },
+      {
+        "ej_id": 76005,
+        "valaltip": "1",
+        "kpn_id": 2037161,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "SZŰCS MELINDA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 82594,
+        "valaltip": "3",
+        "kpn_id": 7383989,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 2,
+        "szavlap_sorsz": 2,
+        "neve": "TÓTH GÁBOR",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-04-29T00:00:00+02:00"
+      },
+      {
+        "ej_id": 93292,
+        "valaltip": "1",
+        "kpn_id": 4433743,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 3,
+        "szavlap_sorsz": 3,
+        "dr_jelzo": "DR.",
+        "neve": "BINSZKI OLIVÉR",
+        "fenykep": 21760,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 92920,
+        "valaltip": "3",
+        "kpn_id": 4433743,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 3,
+        "szavlap_sorsz": 3,
+        "dr_jelzo": "DR.",
+        "neve": "BINSZKI OLIVÉR",
+        "fenykep": 21760,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 84999,
+        "valaltip": "3",
+        "kpn_id": 3336436,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 4,
+        "szavlap_sorsz": 4,
+        "neve": "BÁRDOS GERGŐ",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 84972,
+        "valaltip": "1",
+        "kpn_id": 5399814,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 4,
+        "szavlap_sorsz": 4,
+        "dr_jelzo": "DR.",
+        "neve": "ULBERT MÓNIKA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "33",
+        "allapot_valt": "2024-05-31T00:00:00+02:00"
+      },
+      {
+        "ej_id": 75586,
+        "valaltip": "1",
+        "kpn_id": 4142464,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 5,
+        "szavlap_sorsz": 5,
+        "neve": "BODÓ IMRE",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 75612,
+        "valaltip": "3",
+        "kpn_id": 8230000,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 5,
+        "szavlap_sorsz": 5,
+        "neve": "DUNAI JÓZSEF ISTVÁN",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-04-29T00:00:00+02:00"
+      },
+      {
+        "ej_id": 85218,
+        "valaltip": "3",
+        "kpn_id": 4423957,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 6,
+        "szavlap_sorsz": 6,
+        "neve": "KÁDÁR SÁNDOR",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 136984,
+        "valaltip": "1",
+        "kpn_id": 4740124,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 6,
+        "szavlap_sorsz": 6,
+        "neve": "PUTNIK LÁZÁR",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 75659,
+        "valaltip": "3",
+        "kpn_id": 4826310,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 7,
+        "szavlap_sorsz": 7,
+        "neve": "BALLAI KATALIN",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 76176,
+        "valaltip": "3",
+        "kpn_id": 7584721,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 8,
+        "szavlap_sorsz": 8,
+        "neve": "SÁNTÁNÉ NASZRADI JUDIT",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-04-29T00:00:00+02:00"
+      },
+      {
+        "ej_id": 87153,
+        "valaltip": "3",
+        "kpn_id": 4267208,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 9,
+        "szavlap_sorsz": 9,
+        "neve": "VÖRÖS LÁSZLÓ",
+        "fenykep": 18092,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 89536,
+        "valaltip": "3",
+        "kpn_id": 267610,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 10,
+        "szavlap_sorsz": 10,
+        "neve": "KALMÁR ISTVÁN SÁNDOR",
+        "fenykep": 21391,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 75672,
+        "valaltip": "3",
+        "kpn_id": 1121739,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 11,
+        "szavlap_sorsz": 11,
+        "neve": "TARJÁNNÉ KÁDÁR PIROSKA",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-04-29T00:00:00+02:00"
+      },
+      {
+        "ej_id": 101122,
+        "valaltip": "3",
+        "kpn_id": 744083,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 12,
+        "szavlap_sorsz": 12,
+        "neve": "MAGYAR MÁRIA",
+        "fenykep": 19515,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 84963,
+        "valaltip": "3",
+        "kpn_id": 5399814,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 13,
+        "szavlap_sorsz": 13,
+        "dr_jelzo": "DR.",
+        "neve": "ULBERT MÓNIKA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 85012,
+        "valaltip": "3",
+        "kpn_id": 4685579,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 14,
+        "szavlap_sorsz": 14,
+        "neve": "BIRI ISTVÁN",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 90536,
+        "valaltip": "3",
+        "kpn_id": 4587209,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 15,
+        "szavlap_sorsz": 15,
+        "neve": "MACZELKÁNÉ MINYÓ JUDIT MÁRIA",
+        "fenykep": 21393,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 76001,
+        "valaltip": "3",
+        "kpn_id": 2037161,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 16,
+        "szavlap_sorsz": 16,
+        "neve": "SZŰCS MELINDA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 75541,
+        "valaltip": "3",
+        "kpn_id": 4217360,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 17,
+        "szavlap_sorsz": 17,
+        "neve": "TÓTH ZOLTÁN",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 84950,
+        "valaltip": "3",
+        "kpn_id": 3071941,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 18,
+        "szavlap_sorsz": 18,
+        "dr_jelzo": "DR.",
+        "neve": "VALKAI ILDIKÓ ANNA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 75687,
+        "valaltip": "3",
+        "kpn_id": 6779902,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 19,
+        "szavlap_sorsz": 19,
+        "neve": "PINNEL JUDIT MÓNIKA",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "1",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 111425,
+        "valaltip": "3",
+        "kpn_id": 1798253,
+        "maz": "06",
+        "taz": "057",
+        "sorsolt_sorsz": 20,
+        "szavlap_sorsz": 20,
+        "neve": "BORBÉLY CSABA",
+        "fenykep": 24337,
+        "kep_tipus": "JPG",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "1",
+        "allapot_valt": "2024-05-10T00:00:00+02:00"
+      },
+      {
+        "ej_id": 75583,
+        "valaltip": "3",
+        "kpn_id": 4142464,
+        "maz": "06",
+        "taz": "057",
+        "neve": "BODÓ IMRE",
+        "jlcs_kod": 3213,
+        "jelolo_szervezetek": [
+          1613
+        ],
+        "jlcs_nev": "Vállalkozók Egyesülete",
+        "allapot": "15",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 94981,
+        "valaltip": "3",
+        "kpn_id": 1681166,
+        "maz": "06",
+        "taz": "057",
+        "neve": "TOLNAI BEÁTA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "15",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      },
+      {
+        "ej_id": 94807,
+        "valaltip": "1",
+        "kpn_id": 1681166,
+        "maz": "06",
+        "taz": "057",
+        "neve": "TOLNAI BEÁTA",
+        "jlcs_kod": 0,
+        "jelolo_szervezetek": [
+          0
+        ],
+        "jlcs_nev": "Független",
+        "allapot": "15",
+        "allapot_valt": "2024-05-06T00:00:00+02:00"
+      }
+    ]
+  }
+}

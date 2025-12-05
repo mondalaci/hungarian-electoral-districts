@@ -1,0 +1,731 @@
+{
+  "OvEpHeader": {
+    "generated": "2024-06-09T17:50:00.271265176+02:00",
+    "ov_vl_id": 395,
+    "ov_nvv_id": 445,
+    "ep_vl_id": 396,
+    "ep_nvv_id": 446
+  },
+  "data": {
+    "maz": "14",
+    "taz": "006",
+    "korzethatarok": [
+      {
+        "szavkor": "004",
+        "kt_nev": "Ady Endre",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Akácos",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Arany János",
+        "kt_jelleg": "utca",
+        "int_tip": "4"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Arany János",
+        "kt_jelleg": "utca",
+        "int_tip": "3"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Babits Mihály",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Baross",
+        "kt_jelleg": "tér",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Baross",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Béke",
+        "kt_jelleg": "kert",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Béke",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Bercsényi",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Berek",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Berkes",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Bethlen Gábor",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000001",
+        "zaro_hsz": "000011/A"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Bethlen Gábor",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000012",
+        "zaro_hsz": "999998",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Bocskai",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000001",
+        "zaro_hsz": "000010"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Bocskai",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000011",
+        "zaro_hsz": "000011"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Bocskai",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000012",
+        "zaro_hsz": "000014"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Bocskai",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000015",
+        "zaro_hsz": "000017-0019"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Bocskai",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000018",
+        "zaro_hsz": "000020"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Bocskai",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000021",
+        "zaro_hsz": "999998",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Céhmester",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Csendes",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Csengei",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Deák Ferenc",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Dobó Katalin",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Dózsa György",
+        "kt_jelleg": "út",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Érdy János",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Falujárók",
+        "kt_jelleg": "útja",
+        "int_tip": "5",
+        "kezd_hsz": "000001",
+        "kezd_ep": "A",
+        "zaro_hsz": "000004/D"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Falujárók",
+        "kt_jelleg": "útja",
+        "int_tip": "5",
+        "kezd_hsz": "000005",
+        "zaro_hsz": "000005/J"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Falujárók",
+        "kt_jelleg": "útja",
+        "int_tip": "5",
+        "kezd_hsz": "000006",
+        "kezd_lh": "0005",
+        "zaro_hsz": "000006/0006"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Falujárók",
+        "kt_jelleg": "útja",
+        "int_tip": "5",
+        "kezd_hsz": "000006",
+        "zaro_hsz": "000006"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Falujárók",
+        "kt_jelleg": "útja",
+        "int_tip": "5",
+        "kezd_hsz": "000007",
+        "zaro_hsz": "000019"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Falujárók",
+        "kt_jelleg": "útja",
+        "int_tip": "5",
+        "kezd_hsz": "000019/0005",
+        "zaro_hsz": "000025"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Falujárók",
+        "kt_jelleg": "útja",
+        "int_tip": "5",
+        "kezd_hsz": "000026",
+        "zaro_hsz": "999998",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Galamb",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Gesztenye",
+        "kt_jelleg": "sor",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Géza fejedelem",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Hajnóczy",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Határ",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Hatvani",
+        "kt_jelleg": "út",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Hegyalja",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Honvéd",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Hunyadi",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000001",
+        "zaro_hsz": "000009"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Hunyadi",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000010",
+        "zaro_hsz": "000010/B"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Hunyadi",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000011",
+        "zaro_hsz": "000011"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Hunyadi",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000012",
+        "zaro_hsz": "999999",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Huszár",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Iskola",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Jónásfalva",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "József Attila",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Kakas-hegy",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Kard",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Kender",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Kinizsi",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Kómár Gyula",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Kondoros",
+        "kt_jelleg": "tér",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Koren István",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Kossuth Lajos",
+        "kt_jelleg": "utca",
+        "int_tip": "4",
+        "kezd_hsz": "000001",
+        "zaro_hsz": "000057"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Kossuth Lajos",
+        "kt_jelleg": "utca",
+        "int_tip": "3",
+        "kezd_hsz": "000002",
+        "zaro_hsz": "000070"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Kossuth Lajos",
+        "kt_jelleg": "utca",
+        "int_tip": "4",
+        "kezd_hsz": "000059",
+        "zaro_hsz": "999999",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Kossuth Lajos",
+        "kt_jelleg": "utca",
+        "int_tip": "3",
+        "kezd_hsz": "000074",
+        "zaro_hsz": "999998",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Liget",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Lovas",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Madách",
+        "kt_jelleg": "tér",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Majna",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Malom",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Maros",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Mély",
+        "kt_jelleg": "út",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Miskolczi",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "001",
+        "kt_nev": "Mosolygó",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Nyár",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Nyárád",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Nyugat",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Osváth Gedeon",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Öreghegy",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Ősz",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Papföldi",
+        "kt_jelleg": "út",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Patkó",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Pauler Tivadar",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Pesti",
+        "kt_jelleg": "út",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Petőfi Sándor",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Pintér",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Podmaniczky",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Radnóti Miklós",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Rákóczi",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000002",
+        "zaro_hsz": "000009/A"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Rákóczi",
+        "kt_jelleg": "utca",
+        "int_tip": "5",
+        "kezd_hsz": "000011",
+        "zaro_hsz": "999998",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Régész",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Siklaki-hegy",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Sportpálya",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Szabadság",
+        "kt_jelleg": "tér",
+        "int_tip": "5",
+        "kezd_hsz": "000001",
+        "zaro_hsz": "000006"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Szabadság",
+        "kt_jelleg": "tér",
+        "int_tip": "5",
+        "kezd_hsz": "000007",
+        "zaro_hsz": "999998",
+        "zaro_ep": "9999"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Széchenyi",
+        "kt_jelleg": "út",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Szent Imre",
+        "kt_jelleg": "utca",
+        "int_tip": "4"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Szent Imre",
+        "kt_jelleg": "utca",
+        "int_tip": "3"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Szent István",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Szent László",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Szentkereszt",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Szontágh",
+        "kt_jelleg": "lépcső",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Szőlő",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Tarsoly",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Tavasz",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Téglagyár",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Tél",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "005",
+        "kt_nev": "Templom",
+        "kt_jelleg": "köz",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Tükör",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "003",
+        "kt_nev": "Városréti",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "004",
+        "kt_nev": "Vas Mór",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "006",
+        "kt_nev": "Vezér",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      },
+      {
+        "szavkor": "002",
+        "kt_nev": "Vörösmarty",
+        "kt_jelleg": "utca",
+        "int_tip": "2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mezőkomárom</name>
+    <Style id="style0">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style1">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style4">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff00ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style5">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style6">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0080ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style7">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style8">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f008080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style9">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f80ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style10">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff8000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style11">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f8000ff</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Szavazókör 001</name>
+      <styleUrl>#style0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>18.3095,46.8013,0 18.3094,46.8032,0 18.3089,46.8043,0 18.3088,46.8051,0 18.3106,46.8118,0 18.3103,46.8132,0 18.3099,46.8139,0 18.3096,46.8144,0 18.3089,46.815,0 18.3083,46.8153,0 18.3053,46.8168,0 18.3035,46.8174,0 18.3024,46.8177,0 18.2994,46.8194,0 18.2973,46.8201,0 18.2967,46.8206,0 18.2951,46.8217,0 18.2944,46.8219,0 18.2926,46.8224,0 18.2916,46.8229,0 18.2885,46.8249,0 18.2881,46.8251,0 18.2863,46.8255,0 18.2841,46.8259,0 18.2814,46.8266,0 18.2753,46.828,0 18.2714,46.8293,0 18.2663,46.8308,0 18.2652,46.8315,0 18.2639,46.8325,0 18.2631,46.8339,0 18.2629,46.8347,0 18.2637,46.841,0 18.2636,46.8417,0 18.2634,46.8426,0 18.263,46.8433,0 18.2628,46.844,0 18.2622,46.8444,0 18.2589,46.8463,0 18.2572,46.8466,0 18.2561,46.8466,0 18.2517,46.847,0 18.25,46.8473,0 18.2483,46.8481,0 18.2472,46.8485,0 18.2444,46.85,0 18.2438,46.8507,0 18.2427,46.8515,0 18.2377,46.8545,0 18.2326,46.8571,0 18.2304,46.8579,0 18.2425,46.8629,0 18.2425,46.866,0 18.2457,46.8713,0 18.2429,46.8774,0 18.2606,46.8817,0 18.2611,46.8809,0 18.2617,46.8802,0 18.2612,46.8798,0 18.2617,46.879,0 18.2634,46.8791,0 18.2646,46.8753,0 18.2668,46.8715,0 18.2685,46.8688,0 18.2691,46.8692,0 18.2713,46.8696,0 18.2719,46.87,0 18.2779,46.8715,0 18.279,46.8719,0 18.2901,46.875,0 18.2901,46.8747,0 18.2907,46.8747,0 18.2924,46.8709,0 18.2975,46.8614,0 18.292,46.8598,0 18.292,46.8594,0 18.2937,46.8564,0 18.3009,46.8584,0 18.3168,46.8352,0 18.3212,46.8364,0 18.3217,46.8364,0 18.3223,46.8349,0 18.3234,46.8353,0 18.3245,46.8345,0 18.3245,46.8341,0 18.3251,46.8334,0 18.3251,46.833,0 18.3257,46.8319,0 18.3257,46.8315,0 18.3246,46.8311,0 18.3246,46.8307,0 18.3257,46.8311,0 18.3268,46.8296,0 18.3218,46.828,0 18.3286,46.8185,0 18.3347,46.8205,0 18.3364,46.8186,0 18.3298,46.8167,0 18.3388,46.8045,0 18.3316,46.8022,0 18.3289,46.801,0 18.3266,46.8006,0 18.3244,46.7999,0 18.3239,46.8006,0 18.3162,46.796,0 18.3151,46.7968,0 18.3117,46.7986,0 18.3106,46.8005,0 18.31,46.8009,0 18.3106,46.8013,0 18.3095,46.8013,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

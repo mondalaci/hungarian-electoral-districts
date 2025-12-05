@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hidegség</name>
+    <Style id="style0">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style1">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style4">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff00ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style5">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style6">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0080ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style7">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style8">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f008080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style9">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f80ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style10">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff8000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style11">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f8000ff</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Szavazókör 001</name>
+      <styleUrl>#style0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>16.7349,47.6788,0 16.7455,47.6813,0 16.7525,47.6358,0 16.7574,47.6279,0 16.7604,47.6237,0 16.7604,47.623,0 16.7628,47.6192,0 16.7611,47.6188,0 16.7595,47.6188,0 16.7584,47.618,0 16.7584,47.6172,0 16.7579,47.6168,0 16.7579,47.6164,0 16.7573,47.6164,0 16.7568,47.616,0 16.7562,47.616,0 16.754,47.6152,0 16.7489,47.6147,0 16.7484,47.6147,0 16.749,47.6128,0 16.7473,47.6128,0 16.7434,47.6127,0 16.7434,47.6123,0 16.7406,47.6123,0 16.7412,47.6104,0 16.7401,47.6104,0 16.7401,47.61,0 16.739,47.61,0 16.739,47.6096,0 16.7334,47.6087,0 16.7256,47.6074,0 16.7255,47.6086,0 16.7249,47.6104,0 16.7214,47.6123,0 16.7174,47.6133,0 16.7163,47.6137,0 16.7158,47.6133,0 16.7135,47.6125,0 16.713,47.6121,0 16.7125,47.611,0 16.7101,47.6132,0 16.7089,47.6155,0 16.7031,47.6203,0 16.7045,47.6253,0 16.7096,47.6242,0 16.7111,47.63,0 16.7117,47.6296,0 16.7139,47.6297,0 16.7162,47.6293,0 16.7218,47.6294,0 16.7223,47.6317,0 16.7222,47.6329,0 16.7217,47.6329,0 16.7227,47.6348,0 16.7349,47.6788,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

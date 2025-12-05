@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hevesvezekény</name>
+    <Style id="style0">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style1">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style4">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff00ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style5">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style6">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0080ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style7">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style8">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f008080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style9">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f80ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style10">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff8000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style11">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f8000ff</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Szavazókör 001</name>
+      <styleUrl>#style0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>20.3347,47.5264,0 20.3325,47.5291,0 20.3281,47.5326,0 20.3254,47.5357,0 20.3226,47.5372,0 20.316,47.543,0 20.3149,47.5434,0 20.3149,47.5446,0 20.3149,47.5457,0 20.3139,47.5507,0 20.3134,47.5545,0 20.3129,47.556,0 20.3175,47.5582,0 20.3181,47.559,0 20.3209,47.5624,0 20.3233,47.565,0 20.325,47.5662,0 20.3273,47.5684,0 20.3296,47.5695,0 20.3301,47.5703,0 20.3318,47.5714,0 20.3324,47.5722,0 20.3341,47.5729,0 20.3359,47.5737,0 20.3404,47.5759,0 20.3415,47.5763,0 20.3427,47.5766,0 20.346,47.5762,0 20.3477,47.5762,0 20.3494,47.5762,0 20.3533,47.5746,0 20.3561,47.5746,0 20.359,47.5753,0 20.3635,47.5764,0 20.3674,47.576,0 20.3691,47.5756,0 20.373,47.5744,0 20.3769,47.5732,0 20.3792,47.5735,0 20.3809,47.5743,0 20.3826,47.5746,0 20.3832,47.5754,0 20.3854,47.5758,0 20.3877,47.5757,0 20.3882,47.5757,0 20.3899,47.5749,0 20.3915,47.5734,0 20.3921,47.5726,0 20.3926,47.5711,0 20.3926,47.5703,0 20.3931,47.5673,0 20.3907,47.5635,0 20.3809,47.5545,0 20.373,47.55,0 20.3701,47.5497,0 20.3684,47.5489,0 20.3632,47.5433,0 20.3615,47.5429,0 20.3598,47.5418,0 20.3587,47.5403,0 20.3513,47.5369,0 20.3461,47.5351,0 20.3421,47.5302,0 20.3364,47.5279,0 20.3347,47.5264,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

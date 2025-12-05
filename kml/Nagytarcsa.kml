@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nagytarcsa</name>
+    <Style id="style0">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style1">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ffff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style4">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff00ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style5">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style6">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0080ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style7">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style8">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f008080</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style9">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f80ff00</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style10">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fff8000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style11">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f8000ff</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Szavazókör 001</name>
+      <styleUrl>#style0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>19.2825,47.5264,0 19.2918,47.5243,0 19.292,47.5243,0 19.2916,47.5227,0 19.2948,47.5225,0 19.2951,47.524,0 19.2953,47.5246,0 19.2954,47.5251,0 19.2955,47.5256,0 19.2957,47.5261,0 19.2956,47.5262,0 19.2938,47.5265,0 19.2883,47.5262,0 19.2825,47.5264,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 002</name>
+      <styleUrl>#style1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>19.276,47.5182,0 19.2889,47.5175,0 19.2912,47.5168,0 19.2923,47.5188,0 19.2927,47.5203,0 19.2895,47.5257,0 19.2867,47.5258,0 19.2827,47.5261,0 19.2812,47.5261,0 19.2798,47.526,0 19.277,47.5252,0 19.2802,47.523,0 19.276,47.5182,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 003</name>
+      <styleUrl>#style2</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>19.2792,47.5335,0 19.2798,47.5327,0 19.2807,47.5321,0 19.2813,47.5315,0 19.2825,47.5308,0 19.2839,47.5307,0 19.2862,47.5307,0 19.2884,47.5301,0 19.2906,47.5294,0 19.2927,47.5287,0 19.2938,47.5284,0 19.2945,47.5323,0 19.2947,47.5326,0 19.295,47.5331,0 19.2952,47.5335,0 19.2953,47.5341,0 19.2954,47.5346,0 19.2955,47.5349,0 19.2955,47.5352,0 19.2952,47.5353,0 19.2938,47.5354,0 19.2932,47.5355,0 19.2946,47.5353,0 19.2946,47.5354,0 19.2932,47.5356,0 19.2915,47.5359,0 19.2903,47.5361,0 19.2891,47.5363,0 19.2883,47.5363,0 19.2872,47.5362,0 19.2864,47.536,0 19.2855,47.5361,0 19.2852,47.536,0 19.2849,47.536,0 19.2845,47.5359,0 19.2841,47.536,0 19.2837,47.5359,0 19.2835,47.5357,0 19.2829,47.5358,0 19.2825,47.5356,0 19.282,47.5356,0 19.2802,47.5349,0 19.2794,47.5345,0 19.2784,47.5342,0 19.2788,47.5342,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Szavazókör 004</name>
+      <styleUrl>#style3</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>19.2668,47.5272,0 19.2671,47.5268,0 19.2674,47.5264,0 19.2674,47.526,0 19.2677,47.5255,0 19.268,47.5249,0 19.2682,47.5245,0 19.2684,47.5243,0 19.2685,47.5241,0 19.2688,47.5236,0 19.2697,47.5239,0 19.2701,47.524,0 19.2704,47.5241,0 19.2707,47.5242,0 19.2742,47.5208,0 19.274,47.518,0 19.2742,47.518,0 19.2743,47.5181,0 19.275,47.5187,0 19.2754,47.519,0 19.276,47.5195,0 19.2764,47.52,0 19.2766,47.5209,0 19.2771,47.5217,0 19.2775,47.5224,0 19.2777,47.5229,0 19.2788,47.5243,0 19.279,47.5248,0 19.2793,47.5254,0 19.2826,47.5267,0 19.2828,47.5276,0 19.2829,47.5278,0 19.283,47.5282,0 19.2831,47.5289,0 19.2831,47.5296,0 19.2832,47.5304,0 19.2831,47.5306,0 19.2831,47.5307,0 19.283,47.5308,0 19.2828,47.5309,0 19.2821,47.5312,0 19.2809,47.5313,0 19.2807,47.5316,0 19.2751,47.53,0 19.2752,47.5301,0 19.2754,47.5299,0 19.2749,47.5302,0 19.2747,47.5302,0 19.2738,47.53,0 19.2728,47.5298,0 19.2726,47.5296,0 19.2714,47.5294,0 19.27,47.5291,0 19.2687,47.5288,0 19.2684,47.5287,0 19.2681,47.5285,0 19.2674,47.5284,0 19.2661,47.5279,0 19.2664,47.5279,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
