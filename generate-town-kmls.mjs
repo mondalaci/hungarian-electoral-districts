@@ -26,6 +26,7 @@ await mkdir('kml', { recursive: true });
 for (const record of telepulesek.list) {
   const { maz, taz, megnev } = record.leiro;
   const topoPath = `fetch/${maz}/${taz}/Szavkor-Topo.json`;
+  const korzethatarPath = `fetch/${maz}/${taz}/Korzethatar.json`;
 
   let topoData;
   try {
@@ -33,6 +34,28 @@ for (const record of telepulesek.list) {
   } catch (err) {
     console.error(`Failed to read ${topoPath}: ${err.message}`);
     continue;
+  }
+
+  // Load boundary streets data (optional - may not exist for all settlements)
+  let streetsByDistrict = {};
+  try {
+    const korzethatarData = JSON.parse(await readFile(korzethatarPath, 'utf-8'));
+    // Group streets by szavkor
+    for (const item of korzethatarData.data.korzethatarok) {
+      const szk = item.szavkor;
+      if (!streetsByDistrict[szk]) {
+        streetsByDistrict[szk] = [];
+      }
+      // Build street entry with house number range if available
+      const streetEntry = formatStreetEntry(item);
+      streetsByDistrict[szk].push(streetEntry);
+    }
+    // Sort streets alphabetically within each district
+    for (const szk of Object.keys(streetsByDistrict)) {
+      streetsByDistrict[szk].sort((a, b) => a.localeCompare(b, 'hu'));
+    }
+  } catch (err) {
+    // Korzethatar.json may not exist for all settlements - that's OK
   }
 
   // Generate styles for each color
@@ -59,8 +82,21 @@ for (const record of telepulesek.list) {
 
     const styleIndex = index % colors.length;
 
+    // Get streets for this district
+    const streets = streetsByDistrict[item.szk] || [];
+    const streetList = streets.length > 0
+      ? streets.join(', ')
+      : 'Nincs adat';
+
+    // Build description with street boundaries
+    const description = `<![CDATA[
+<b>A szavazókörhöz tartozó címek:</b><br/>
+${streetList}
+]]>`;
+
     return `    <Placemark>
       <name>Szavazókör ${item.szk}</name>
+      <description>${description}</description>
       <styleUrl>#style${styleIndex}</styleUrl>
       <Polygon>
         <outerBoundaryIs>
@@ -97,4 +133,66 @@ function escapeXml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&apos;');
+}
+
+// Parse house number string like "000001/A" -> { num: 1, suffix: "/A" }
+function parseHouseNumber(hsz) {
+  if (!hsz) return null;
+  // Match leading digits, then optional suffix
+  const match = hsz.match(/^0*(\d+)(.*)$/);
+  if (!match) return null;
+  return { num: parseInt(match[1], 10), suffix: match[2] || '' };
+}
+
+// Format a single street entry with house number range
+function formatStreetEntry(item) {
+  const streetName = `${item.kt_nev} ${item.kt_jelleg}`;
+
+  // int_tip: 2 = full street, 3 = even, 4 = odd, 5 = specific range
+  if (item.int_tip === '2') {
+    // Full street, no house numbers needed
+    return streetName;
+  }
+
+  const kezd = parseHouseNumber(item.kezd_hsz);
+  const zaro = parseHouseNumber(item.zaro_hsz);
+
+  if (!kezd || !zaro) {
+    return streetName;
+  }
+
+  // Format the range
+  let range;
+  if (kezd.num === zaro.num && kezd.suffix === zaro.suffix) {
+    // Single house number
+    range = `${kezd.num}${kezd.suffix}`;
+  } else {
+    // Range of house numbers
+    const kezdStr = `${kezd.num}${kezd.suffix}`;
+    const zaroStr = zaro.num >= 999998 ? '' : `${zaro.num}${zaro.suffix}`;
+
+    if (zaroStr) {
+      range = `${kezdStr}-${zaroStr}`;
+    } else {
+      // Open-ended range (999999 means "to the end")
+      range = `${kezdStr}-`;
+    }
+  }
+
+  // Determine parity annotation
+  let parityNote = '';
+  if (item.int_tip === '3') {
+    parityNote = ' (páros)';
+  } else if (item.int_tip === '4') {
+    parityNote = ' (páratlan)';
+  } else if (item.int_tip === '5') {
+    // Check if both numbers have same parity
+    if (kezd.num % 2 === 0 && zaro.num % 2 === 0 && zaro.num < 999998) {
+      parityNote = ' (páros)';
+    } else if (kezd.num % 2 === 1 && zaro.num % 2 === 1 && zaro.num < 999998) {
+      parityNote = ' (páratlan)';
+    }
+  }
+
+  return `${streetName} ${range}${parityNote}`;
 }
