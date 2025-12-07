@@ -83,14 +83,26 @@ for (const record of telepulesek.list) {
 
   // Build KML content
   const placemarks = topoData.list.map((item, index) => {
-    // Convert "lat lon,lat lon,..." to KML format "lon,lat,0 lon,lat,0 ..."
-    const coordinates = item.poligon
-      .split(',')
-      .map((coord) => {
-        const [lat, lon] = coord.trim().split(' ');
-        return `${lon},${lat},0`;
-      })
-      .join(' ');
+    // Convert "lat lon,lat lon,..." to numeric [lon, lat] pairs
+    let points = item.poligon.split(',').map((coord) => {
+      const [lat, lon] = coord.trim().split(' ');
+      return [parseFloat(lon), parseFloat(lat)];
+    });
+
+    // Simplify polygon using Douglas-Peucker algorithm
+    // This removes micro-variations that cause Google My Maps rendering issues
+    // epsilon = 0.0001 degrees ≈ 10 meters
+    points = douglasPeucker(points, 0.0001);
+
+    // Convert to KML coordinate strings
+    let coordPairs = points.map(([lon, lat]) => `${lon.toFixed(6)},${lat.toFixed(6)},0`);
+
+    // Ensure polygon is closed (first point == last point)
+    if (coordPairs.length > 0 && coordPairs[0] !== coordPairs[coordPairs.length - 1]) {
+      coordPairs.push(coordPairs[0]);
+    }
+
+    const coordinates = coordPairs.join(' ');
 
     const styleIndex = index % colors.length;
 
@@ -213,4 +225,65 @@ function formatStreetEntry(item) {
   }
 
   return `${streetName} ${range}${parityNote}`;
+}
+
+// Douglas-Peucker polygon simplification algorithm
+// Reduces the number of points while preserving the overall shape
+// epsilon: maximum perpendicular distance threshold (in degrees)
+function douglasPeucker(points, epsilon) {
+  if (points.length < 3) return points;
+
+  // Find the point with the maximum distance from the line between first and last
+  let maxDist = 0;
+  let maxIndex = 0;
+
+  for (let i = 1; i < points.length - 1; i++) {
+    const dist = perpendicularDistance(points[i], points[0], points[points.length - 1]);
+    if (dist > maxDist) {
+      maxDist = dist;
+      maxIndex = i;
+    }
+  }
+
+  // If max distance is greater than epsilon, recursively simplify
+  if (maxDist > epsilon) {
+    const left = douglasPeucker(points.slice(0, maxIndex + 1), epsilon);
+    const right = douglasPeucker(points.slice(maxIndex), epsilon);
+    return left.slice(0, -1).concat(right);
+  } else {
+    // All points between first and last are within epsilon, keep only endpoints
+    return [points[0], points[points.length - 1]];
+  }
+}
+
+// Calculate perpendicular distance from a point to a line segment
+function perpendicularDistance(point, lineStart, lineEnd) {
+  const [px, py] = point;
+  const [x1, y1] = lineStart;
+  const [x2, y2] = lineEnd;
+
+  const dx = x2 - x1;
+  const dy = y2 - y1;
+
+  // Handle degenerate case where line segment is a point
+  if (dx === 0 && dy === 0) {
+    return Math.sqrt(Math.pow(px - x1, 2) + Math.pow(py - y1, 2));
+  }
+
+  // Calculate parameter t for closest point on line
+  const t = ((px - x1) * dx + (py - y1) * dy) / (dx * dx + dy * dy);
+
+  let nearestX, nearestY;
+  if (t < 0) {
+    nearestX = x1;
+    nearestY = y1;
+  } else if (t > 1) {
+    nearestX = x2;
+    nearestY = y2;
+  } else {
+    nearestX = x1 + t * dx;
+    nearestY = y1 + t * dy;
+  }
+
+  return Math.sqrt(Math.pow(px - nearestX, 2) + Math.pow(py - nearestY, 2));
 }
