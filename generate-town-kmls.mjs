@@ -36,6 +36,18 @@ for (const record of telepulesek.list) {
     continue;
   }
 
+  // Load voter count data (optional - may not exist for all settlements)
+  let voterCountByDistrict = {};
+  try {
+    const szavazokorokPath = `fetch/${maz}/${taz}/Szavazokorok.json`;
+    const szavazokorokData = JSON.parse(await readFile(szavazokorokPath, 'utf-8'));
+    for (const szk of szavazokorokData.data.szavazokorok) {
+      voterCountByDistrict[szk.leiro.sorszam] = szk.letszam.onkVp;
+    }
+  } catch (err) {
+    // Szavazokorok.json may not exist for all settlements - that's OK
+  }
+
   // Load boundary streets data (optional - may not exist for all settlements)
   let streetsByDistrict = {};
   try {
@@ -88,9 +100,15 @@ for (const record of telepulesek.list) {
       ? streets.join(', ')
       : 'Nincs adat';
 
+    // Get voter count for this district
+    const onkVp = voterCountByDistrict[item.szk];
+    const voterCountLine = onkVp !== undefined
+      ? `Önkormányzati választásra jogosultak száma 2024-ben: ${onkVp}<br/>`
+      : '';
+
     // Build description with street boundaries
     const description = `<![CDATA[
-<b>A szavazókörhöz tartozó címek:</b><br/>
+${voterCountLine}<b>A szavazókörhöz tartozó címek:</b><br/>
 ${streetList}
 ]]>`;
 
